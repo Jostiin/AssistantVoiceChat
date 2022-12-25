@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+body{
+    
+    background: #00F260; 
+    background: -webkit-linear-gradient(to right, #0575E6, #00F260);  
+    background: linear-gradient(to right, #0575E6, #00F260); 
+
+
+}
+.container{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.target{
+    text-align: center;
+    padding: 1rem;
+    
+    background: rgba(255,255,255,0.038);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.75);
+    backdrop-filter: blur(10px);
+   
+}
+h1 {
+    margin-top: 2rem;
+    margin-bottom:2rem;
+    color: white;
+    
+}
+.chat{
+    background-color: transparent;
+    width: 20rem;
+    height: 30rem;
+    color: black;
+    margin-bottom: 2rem;
+    overflow-y: auto;
+}
+.target button{
+    font-size: 25px;
+    margin-bottom: 1rem;
+    padding: 20px;
+    width: 6rem;
+    height: 6rem;
+    color: black;
+    border: none;
+    border-radius: 50%;
+    background: white;
+    
+    
+}
+.target button:active{
+    font-size: 2rem;
+    width: 6.2rem;
+    height: 6.2rem;
+}
+p{
+    padding-left: 2rem;
+    color: white;
+    text-align: left;
+    font-size: 20px;
+}
+@media screen and (min-width: 680px){
+    .target{
+        padding: 2rem;
+    }
+    .chat{
+        background-color: transparent;
+        width: 40rem;
+        height: 25rem;
+       
+        margin-bottom: 3rem;
+    }
+    h1 {
+        font-size: 4rem;
+        color: white;
+        margin-bottom:3rem;
+    }
+    .target button{
+        font-size: 50px;
+        padding: 20px;
+        width: 8rem;
+        height: 8rem;
+    }
+    .target button:active{
+        font-size: 4rem;
+        width: 8.2rem;
+        height: 8.2rem;
+    }
+    p{
+        padding-left: 4rem;
+        color: white;
+        text-align: left;
+        font-size: 25px;
+    }
+}
